@@ -258,6 +258,7 @@
             let upper = array.length - 1;
 
             while(lower <= upper){
+                const middle = Math.floor((lower+upper) / 2);
                if(number === array[middle]){
                    numberFound = true;
                }
